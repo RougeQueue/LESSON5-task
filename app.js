@@ -8,10 +8,10 @@ while(num < 50){
   if(count == 50){
     alert(count + "回カウントが終わりました");
   }else if(num % 4 == 0 && count % 10 == 0){
-    console.log("4で割れる数です。" );
+    console.log("4で割れる数です。"  + count);
     console.log("今" + count + "回ループしました。");
   }else if(num % 4 == 0) {
-    console.log("4で割れる数です。" + count + "回ループしました。");
+    console.log("4で割れる数です。" + count);
   }else if(count % 10 == 0){
     console.log("今" + count + "回ループしました。");
   }
